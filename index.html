@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+  <header  class="bg-green-900 py-4">
+    <nav>
+      <div class="container mx-auto flex justify-between items-center">
+
+          <div class="flex space-x-8">
+              <a href="#" class="text-white hover:text-gray-300">Shop</a>
+              <div class="relative group">
+                  <button class="text-white hover:text-gray-300">Products</button>
+
+                  <div class="absolute left-0 hidden mt-2 w-48 bg-white text-black shadow-lg group-hover:block">
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-200">Product 1</a>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-200">Product 2</a>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-200">Product 3</a>
+                  </div>
+              </div>
+              <a href="#" class="text-white hover:text-gray-300">Fertilizer</a>
+              <a href="#" class="text-white hover:text-gray-300">Guide</a>
+          </div>
+
+          <div class="flex-1 text-center">
+              <a href="#" class="text-white text-2xl font-bold">
+                  <img src="./assets/Black & White Geometric Beauty Circle Logo 1.svg" alt="Logo" class="inline-block  w-28 mr-2">
+                  
+              </a>
+          </div>
+  
+
+          <div class="hidden lg:flex items-center gap-5 text-white cursor-pointer">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+  </nav>
+  </header>
+
+  <main>
+    <section class="container mx-auto px-6 py-12 bg-green-900">
+      <div class="flex flex-col lg:flex-row items-center">
+
+          <div class="lg:w-1/2 text-white mb-8 lg:mb-0">
+              <h1 class="text-4xl lg:text-6xl font-bold mb-6">
+                  Happiness <br> blooms from <br> within
+              </h1>
+              <p class="text-lg mb-8">
+                  Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.
+              </p>
+              <div class="flex space-x-4">
+                  <a href="#" class="bg-white text-green-900 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition">Shop now</a>
+                  <a href="#" class="text-white font-semibold px-6 py-3 flex items-center space-x-2 hover:underline">
+                      <span>Explore plants</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M12.293 9.293a1 1 0 011.414 1.414L10 14.414l-3.707-3.707a1 1 0 011.414-1.414L10 11.586l2.293-2.293z" clip-rule="evenodd" />
+                      </svg>
+                  </a>
+              </div>
+          </div>
+
+          <div class="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+              <div class="relative">
+                  <img src="./assets/image 3 (1).png" alt="Plant Image" class="rounded-lg shadow-lg h-[200px] w-[200px]">
+                  <span class="absolute top-2 left-2 bg-green-800 text-white text-xs font-bold px-2 py-1 rounded">New</span>
+              </div>
+
+              <div class="relative sm:row-span-2">
+                  <img src="./assets/image 1 (2).png" alt="Featured Plant" class="rounded-lg shadow-lg">
+                  <span class="absolute top-2 left-2 bg-green-800 text-white text-xs font-bold px-2 py-1 rounded">Featured</span>
+                  <div class="absolute bottom-4 left-4 text-white">
+                      <h3 class="text-xl font-bold">Anthurium Flower</h3>
+                      <p class="text-sm overflow-hidden">The flower of human beings. It has meaningful significance of the fact that the plant always grows whatever the season and weather.</p>
+                      <a href="#" class="inline-block mt-4 bg-white text-green-900 font-semibold px-4 py-2 rounded shadow hover:bg-gray-100 transition">READ MORE</a>
+                  </div>
+              </div>
+
+              <div class="relative">
+                  <img src="./assets/image 2 (1).png" alt="Plant Image" class="rounded-lg shadow-lg">
+                  <span class="absolute top-2 left-2 bg-green-800 text-white text-xs font-bold px-2 py-1 rounded">Popular</span>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="container mx-auto px-6 py-12">
+
+    <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-bold text-green-900">Featured</h2>
+        <a href="#" class="text-green-700 hover:underline">view all</a>
+    </div>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <img src="./assets/image 8.png" alt="Peperomia Ginny" class="rounded-lg mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Peperomia Ginny</h3>
+            <p class="text-gray-600">$25</p>
+            <p class="text-sm text-gray-500 mb-2">Pot color</p>
+            <div class="flex space-x-2 mb-4">
+                <span class="block w-6 h-6 rounded-full bg-black border"></span>
+                <span class="block w-6 h-6 rounded-full bg-gray-400 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-pink-200 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-orange-200 border"></span>
+            </div>
+            <button class="bg-green-900 text-white font-semibold py-2 px-4 rounded hover:bg-green-700 transition">Buy</button>
+        </div>
+
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <img src="./assets/image 9.png" alt="Bird’s Nest Fern" class="rounded-lg mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Bird’s Nest Fern</h3>
+            <p class="text-gray-600">$45</p>
+            <p class="text-sm text-gray-500 mb-2">Pot color</p>
+            <div class="flex space-x-2 mb-4">
+                <span class="block w-6 h-6 rounded-full bg-black border"></span>
+                <span class="block w-6 h-6 rounded-full bg-gray-400 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-pink-200 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-orange-200 border"></span>
+            </div>
+            <button class="bg-white text-green-900 font-semibold py-2 px-4 rounded border border-green-900 hover:bg-gray-100 transition">Buy</button>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <img src="./assets/image 10.png" alt="Large Majesty Palm" class="rounded-lg mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Large Majesty Palm</h3>
+            <p class="text-gray-600">$52</p>
+            <p class="text-sm text-gray-500 mb-2">Pot color</p>
+            <div class="flex space-x-2 mb-4">
+                <span class="block w-6 h-6 rounded-full bg-black border"></span>
+                <span class="block w-6 h-6 rounded-full bg-gray-400 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-pink-200 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-orange-200 border"></span>
+            </div>
+            <button class="bg-white text-green-900 font-semibold py-2 px-4 rounded border border-green-900 hover:bg-gray-100 transition">Buy</button>
+        </div>
+
+
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <img src="./assets/image 11.png" alt="Pet Friendly Plant" class="rounded-lg mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Pet Friendly Plant</h3>
+            <p class="text-gray-600">$30</p>
+            <p class="text-sm text-gray-500 mb-2">Pot color</p>
+            <div class="flex space-x-2 mb-4">
+                <span class="block w-6 h-6 rounded-full bg-black border"></span>
+                <span class="block w-6 h-6 rounded-full bg-gray-400 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-pink-200 border"></span>
+                <span class="block w-6 h-6 rounded-full bg-orange-200 border"></span>
+            </div>
+            <button class="bg-white text-green-900 font-semibold py-2 px-4 rounded border border-green-900 hover:bg-gray-100 transition">Buy</button>
+        </div>
+    </div>
+
+
+    <div class="mt-12 bg-white p-6 rounded-lg shadow-md flex items-center">
+
+        <input type="text" placeholder="Search flowers..." class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-900">
+        <button class="ml-4 text-green-900">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0a8.5 8.5 0 111.415-1.415l4.35 4.35z" />
+            </svg>
+        </button>
+    </div>
+</section>
+
+
+    <section class="container mx-auto px-4 py-12">
+
+      <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-gray-800">Colorful New Arrivals</h2>
+          <a href="#" class="text-blue-500 hover:underline">view all</a>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="relative">
+              <img src="./assets/image 15.png" alt="Blue Lily" class="w-full h-48 object-cover rounded">
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white">
+                  <a href="#" class="text-lg">Blue Lily</a>
+              </div>
+          </div>
+          <div>
+              <img src="./assets/image 15.png" alt="Flower 2" class="w-full h-48 object-cover rounded">
+          </div>
+          <div>
+              <img src="./assets/image 16.png" alt="Flower 3" class="w-full h-48 object-cover rounded">
+          </div>
+          <div>
+              <img src="./assets/image 17.png" alt="Flower 4" class="w-full h-48 object-cover rounded">
+          </div>
+      </div>
+
+
+      <div class="text-center mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-gray-800">Plant stands</h2>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+              <img src="./assets/image 5.png" alt="Plant Stand 1" class="w-full h-64 object-cover rounded">
+          </div>
+          <div>
+              <img src="./assets/image 6.png" alt="Plant Stand 2" class="w-full h-64 object-cover rounded">
+          </div>
+          <div>
+              <img src="./assets/image 7.png" alt="Plant Stand 3" class="w-full h-64 object-cover rounded">
+          </div>
+      </div>
+
+
+      <div class="mt-12 bg-pink-100 py-8 rounded">
+          <div class="text-center">
+              <h2 class="text-2xl font-bold text-gray-800">Free Shipping Services</h2>
+              <p class="text-sm text-gray-600">*only for the same region</p>
+          </div>
+          <div class="mt-4 text-center">
+              <p class="text-gray-800">📞 +01 189-2319-00</p>
+              <p class="text-gray-800">✉ order@platify.co</p>
+          </div>
+          <div class="mt-6">
+              <img src="./assets/image 13.png" alt="Shipping Flowers" class="mx-auto w-2/3 md:w-1/3">
+          </div>
+      </div>
+  </section>
+
+
+  </main>
+
+</body>
+</html>
